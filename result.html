@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var Eng=parseInt(prompt("Enter 1st marks"))
+var com=parseInt(prompt("Enter 2nd marks"))
+var Sci=parseInt(prompt("Enter 3rd marks"))
+
+var total=Eng+com+Sci
+var percent=(total/300)*100
+document.write(percent+"%")
+if(percent>=80)
+alert("Congratulations You passed with Distinction"+ percent)
+else if(percent>=70)
+alert("You Passed with First Class"+ percent)
+else if(percent>=60)
+alert("You Passed with Second Class" + percent)
+else if(percent>=40)
+alert("You Passed with Third Class" + percent)
+else
+alert("Failed....."+ percent)
+</script>
+</body>
+</html>

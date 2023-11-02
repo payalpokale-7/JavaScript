@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Name property</title>
+	<script type="text/javascript">
+    function Add() {
+    	var num1=parseInt(document.form1.num1.value);
+    	var num2=parseInt(document.form1.num2.value);
+    	var Result=num1+num2;
+    	document.form1.res.value=Result;
+    }
+	</script>
+</head>
+<body>
+	<form name="form1">
+    Number1:<input type="number" name="name1">
+    <br><br>
+    Number2:<input type="number" name="name2">
+    <br><br>
+    Result:<input type="number" name="res"><br><br>
+    <input type="button" name="btn1" value="Add" onclick="Add()">
+	</form>
+
+</body>
+</html>

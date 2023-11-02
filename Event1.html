@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Name property</title>
+	<script type="text/javascript">
+function Add() {
+	var num1=parseInt(document.getElementById("id1").value);
+	var num2=parseInt(document.getElementById("id2").value);
+	var sum=num1+num2;
+	document.getElementById("id3").value=sum;
+
+}
+	
+	</script>
+	<style type="text/css">
+#id1{
+	background-color:yellow ;
+   }
+#id2{
+	background-color: blue;	
+}
+#id3{
+	background-color: green;	
+}
+</style>
+</head>
+<body>
+<form>
+Number1:<input type="number" id="id1"><br><br>
+Number2:<input type="number" id="id2"><br><br>
+Result:<input type="number" id="id3"><br><br>
+
+<input type="button" name="btn1" value="Add" onclick="Add()">
+</form>
+</body>
+</html>
